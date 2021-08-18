@@ -6,7 +6,7 @@ The goal of this exercise is to write a simple, locally running web service that
 
 Babelserver is written in python with CherryPy as a boilerplate web framework to translate and replicate metrics/alerts/events between multiple providers.
 
-When running, Babelserver has the primary endpoint `/translate` and a health monitoring endpoint `/health`. It expects a json payload that constitutes the entirety of a providers message and will translate into the correct format for the desired downstream provider. This currently only built to work with Loggly -> Datadog translation.
+When running, Babelserver has the primary endpoint `/translate` and a health monitoring endpoint `/health`. It expects a json payload that constitutes the entirety of a providers message and will translate into the correct format for the desired downstream provider. This is currently only built to work with Loggly -> Datadog translation.
 
 ## Requirements/Dependencies
 
