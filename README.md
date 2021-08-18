@@ -34,3 +34,5 @@ docker >= 20.0.0 and make
 
 `curl -d '{"alert_name":"foo","edit_alert_link":"1","source_group":"foo","start_time":"Jan 1 00:00:00","end_time":"Jan 1 00:00:01","search_link":"foobar","query":"foo","num_hits":0,"recent_hits":[],"owner_username":"foo","owner_subdomain":"bar","owner_email":"foo"}' -H "Content-Type: application/json" -X POST http://localhost:8087/translate`
 - Observe event created in Datadog event stream: https://app.datadoghq.com/event/stream
+
+![image](https://user-images.githubusercontent.com/12144004/129983875-0c3bdcd8-765b-414f-9d5a-36a1b5a279c5.png)
